@@ -28,4 +28,4 @@ def filter_ips(input_file_path, output_file_path, allowed_ips):
         print(f"Помилка запису до файлу: {e}")
 
 allowed_ips = ['127.0.0.1', '192.168.0.1']
-filter_ips('input_file_path.txt', 'filtered_ips.txt', allowed_ips)
+filter_ips('apache_logs.txt', 'filtered_ips.txt', allowed_ips)
