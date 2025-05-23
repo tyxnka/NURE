@@ -8,7 +8,6 @@ converted_response = json.loads(nbu_response.content)
 
 euro_rates = {}
 
-# Обробка JSON
 for item in converted_response:
     date = item['exchangedate']
     rate = item['rate']
